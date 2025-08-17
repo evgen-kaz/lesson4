@@ -16,8 +16,6 @@ public class SelenideRepositorySearchWiki {
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
         baseUrl = "https://github.com/";
-        Configuration.pageLoadStrategy = "eager";
-        Configuration.holdBrowserOpen = true;
     }
 
     @Test
